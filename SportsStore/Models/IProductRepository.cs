@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SportsStore.Models
 {
-    interface IProductRepository
+   public interface IProductRepository
     {
         //iqueryable instead of ineumariable coz IQuery is more optimized and better 
         //used to query list of our products
