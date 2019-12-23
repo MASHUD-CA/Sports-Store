@@ -16,9 +16,9 @@ namespace SportsStore.Controllers
             repository = repo;
         }
 
-        //List of products will be sent to our first view our list view
-        // It tells MVC to give/render view for achitn method. 
-        //Passing the collection of product objects from the reposityro to View method
+        // List of products will be sent to our first view our list view
+        // It tells MVC to give/render view for action method. 
+        // Passing the collection of product objects from the repository to View method
         // provides the framework with the data with which to populate the Model object
         //in a strongly typed view.
 
